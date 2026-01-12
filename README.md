@@ -163,4 +163,3 @@ textarea{min-height:140px;resize:vertical}
   .products{grid-template-columns:1fr}
   .hero h1{font-size:36px}
 }
-
