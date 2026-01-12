@@ -1,15 +1,3 @@
-/index.html
-/about.html
-/products.html
-/contact.html
-/auth.html
-/visualizer.html
-/assets/
-  /css/style.css
-  /js/main.js
-  /js/i18n.js
-  /js/session.js
-  /img/logo.svg
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
