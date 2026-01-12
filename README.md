@@ -13,7 +13,6 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="nav">
     <div class="container">
       <div class="navbar">
@@ -24,9 +23,7 @@
             <span data-i18n="city">Babel, Iraq</span>
           </span>
         </a>
-
         <button id="menuBtn" class="btn menu-btn" type="button">Menu</button>
-
         <nav id="navLinks" class="links" aria-label="Navigation">
           <a class="link" data-nav href="index.html" data-i18n="nav_home"> </a>
           <a class="link" data-nav href="about.html" data-i18n="nav_about"> </a>
@@ -35,7 +32,6 @@
           <a class="link" data-nav href="auth.html" data-i18n="nav_auth"> </a>
           <a class="link" data-nav href="visualizer.html" data-i18n="viz_badge"> </a>
         </nav>
-
         <div class="nav-actions">
           <button id="langBtn" class="btn" type="button">English</button>
           <div id="sessionSlot"></div>
@@ -44,7 +40,6 @@
       </div>
     </div>
   </header>
-
   <main id="main">
     <section class="section">
       <div class="container hero">
@@ -52,14 +47,11 @@
           <span class="badge" data-i18n="home_badge">Wallpaper manufacturer — quality and modern designs</span>
           <h1 data-i18n="home_title">Al-Wadaq Wallpaper Manufacturing Co. Ltd</h1>
           <p data-i18n="home_sub">We manufacture high-quality wallpapers with multiple materials and finishes...</p>
-
           <div class="actions">
             <a class="btn primary" href="products.html" data-i18n="home_cta_products">View Products</a>
             <a class="btn" href="contact.html" data-i18n="home_cta_quote">Request a Quote</a>
           </div>
-
           <div class="hr"></div>
-
           <div class="kpis">
             <div class="kpi"><strong data-i18n="kpi1">Multiple designs</strong><span>—</span></div>
             <div class="kpi"><strong data-i18n="kpi2">Materials & finishes</strong><span>—</span></div>
@@ -67,10 +59,8 @@
             <div class="kpi"><strong data-i18n="kpi4">Quality control</strong><span>—</span></div>
           </div>
         </div>
-
         <div class="hero-art">
           <h2 style="margin-top:0;" data-i18n="home_why_title">Why Al-Wadaq?</h2>
-
           <div class="grid" style="margin-top:14px;">
             <div class="card" style="box-shadow:none;">
               <strong data-i18n="home_why_1_t">Measurable quality</strong>
@@ -85,19 +75,17 @@
               <div class="small" data-i18n="home_why_3_d">Order management and delivery scheduling...</div>
             </div>
           </div>
-
           <div class="hr"></div>
-
           <div class="notice">
             <div><strong data-i18n="address_label">Address</strong>: <span data-i18n="city">Babel, Iraq</span></div>
-            <div style="margin-top:6px;"><strong data-i18n="phone_label">Phone</strong>: +964 7XX XXX XXXX</div>
+            <div style="margin-top:6px;"><strong data-i18n="phone_label">Phone</strong>: +964 7811 11100</div>
             <div><strong data-i18n="email_label">Email</strong>: info@alwadaq-wallpaper.com</div>
-            <div class="small" style="margin-top:8px;">ملاحظة: استبدل الهاتف والبريد بالداتا الحقيقية قبل النشر.</div>
+            <div class="small" style="margin-top:8px;">
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <section class="section" style="padding-top:0;">
       <div class="container grid two" style="align-items:stretch;">
         <div class="card">
@@ -109,7 +97,6 @@
             <li data-i18n="home_services_li4">Wholesale pricing for distributors and contractors.</li>
           </ul>
         </div>
-
         <div class="card">
           <h2 style="margin-top:0;">Quick Links</h2>
           <p class="small">Explore products or send an inquiry.</p>
@@ -121,18 +108,13 @@
         </div>
       </div>
     </section>
-
     <section class="section" style="padding-top:0;">
       <div class="container grid two" style="align-items:start;">
         <div class="card">
           <h2 style="margin-top:0;" data-i18n="media_title">Factory & Product Preview</h2>
           <p class="small" data-i18n="media_desc">Media content for the assignment (replace the video URL with your factory video).</p>
-          <div style="border:1px solid var(--border); border-radius:16px; overflow:hidden;">
-            <iframe title="Wallpaper manufacturing video" style="width:100%; height:320px; border:0;" loading="lazy"
-              src="https://www.youtube.com/embed/2g811Eo7K8U"></iframe>
           </div>
         </div>
-
         <div class="card">
           <h2 style="margin-top:0;" data-i18n="innovation_title">Innovation: Wallpaper Visualizer</h2>
           <p class="small" data-i18n="innovation_desc">Users can preview wallpaper styles on a room photo (MVP for a future release).</p>
@@ -143,7 +125,6 @@
       </div>
     </section>
   </main>
-
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -154,16 +135,14 @@
           </div>
           <div class="small" data-i18n="footer_tagline">Al-Wadaq Wallpaper Manufacturing Co. Ltd — Babel, Iraq</div>
         </div>
-
         <div class="small">
-          <div><span data-i18n="phone_label">Phone</span>: +964 7XX XXX XXXX</div>
+          <div><span data-i18n="phone_label">Phone</span>: +964 781111100</div>
           <div><span data-i18n="email_label">Email</span>: info@alwadaq-wallpaper.com</div>
           <div>© <span id="year"></span> Al-Wadaq — <span data-i18n="footer_rights">All rights reserved</span></div>
         </div>
       </div>
     </div>
   </footer>
-
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script type="module" src="assets/js/main.js"></script>
 </body>
